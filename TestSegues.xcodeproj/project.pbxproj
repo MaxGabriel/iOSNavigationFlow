@@ -18,6 +18,7 @@
 		50E062FE167DA2B1000D924C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E062FD167DA2B1000D924C /* Default-568h@2x.png */; };
 		50E06301167DA2B1000D924C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E062FF167DA2B1000D924C /* MainStoryboard.storyboard */; };
 		50E06304167DA2B1000D924C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E06303167DA2B1000D924C /* ViewController.m */; };
+		50E0630C167DA30F000D924C /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E0630B167DA30F000D924C /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		50E06300167DA2B1000D924C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		50E06302167DA2B1000D924C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		50E06303167DA2B1000D924C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50E0630A167DA30F000D924C /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		50E0630B167DA30F000D924C /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				50E062FF167DA2B1000D924C /* MainStoryboard.storyboard */,
 				50E06302167DA2B1000D924C /* ViewController.h */,
 				50E06303167DA2B1000D924C /* ViewController.m */,
+				50E0630A167DA30F000D924C /* TestViewController.h */,
+				50E0630B167DA30F000D924C /* TestViewController.m */,
 				50E062EE167DA2B1000D924C /* Supporting Files */,
 			);
 			path = TestSegues;
@@ -176,6 +181,7 @@
 				50E062F4167DA2B1000D924C /* main.m in Sources */,
 				50E062F8167DA2B1000D924C /* AppDelegate.m in Sources */,
 				50E06304167DA2B1000D924C /* ViewController.m in Sources */,
+				50E0630C167DA30F000D924C /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
